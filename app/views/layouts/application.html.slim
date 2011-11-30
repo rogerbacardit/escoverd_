@@ -16,5 +16,5 @@ html
   #content
     == yield
 
-  /*=render partial: 'layouts/google_analytics' if Rails.env.production?*/
+  =render partial: 'layouts/google_analytics' if Rails.env.production?
   /*=render partial: 'layouts/gosquared' if Rails.env.production?*/
