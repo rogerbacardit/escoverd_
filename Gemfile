@@ -25,6 +25,9 @@ gem 'high_voltage'
 
 gem 'slim'
 
+gem 'bootstrap-sass', '~> 2.0.1', require: 'bootstrap-sass'
+gem 'sass-rails',    '~> 3.1.4'
+
 gem 'high_voltage'
 
 group :production do
@@ -36,12 +39,10 @@ group :assets do
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
   gem 'jquery-rails'
-  gem "compass", ">= 0.12.alpha"
   gem 'fancybox-rails', git: 'https://github.com/hecticjeff/fancybox-rails.git'
   gem 'tinymce-rails'
+  gem 'twitter-bootstrap-rails'
 end
-
-gem 'sass-rails',   '~> 3.1.4'
 
 group :development do
   gem 'sqlite3'
